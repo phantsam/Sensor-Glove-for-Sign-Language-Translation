@@ -76,4 +76,9 @@ Fig. 2: ADXL335 Accelerometer Connections with Arduino Uno
 
 ---
 
+## Circuit Diagram 
+This circuit diagram was made on fritzing and shows how the components are connected together.
+
+![Screenshot 2025-01-03 190013](https://github.com/user-attachments/assets/5b3e26e1-0a2e-4e7f-9b24-07f89b180540)
+
 
