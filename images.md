@@ -13,7 +13,7 @@ This setup allows the Arduino to read analog voltage variations caused by bendin
 
 ### Diagram
 
-![Flex Sensor Connections]("C:\Users\Rakshit Joshi\Pictures\Screenshots\Screenshot 2025-01-03 192102.png")
+("C:\Users\Rakshit Joshi\Pictures\Screenshots\Screenshot 2025-01-03 192102.png")
 *Fig. 1: Flex Sensor Connections with Arduino Uno*
 
 ---
