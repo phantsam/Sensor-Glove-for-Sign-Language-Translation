@@ -44,3 +44,36 @@ This setup allows the Arduino to read analog voltage variations caused by bendin
 1. Ensure that the RX and TX pins are connected correctly to avoid communication issues.
 2. Avoid uploading new code to the Arduino Uno while the Bluetooth module is connected to RX and TX (Digital Pins 0 and 1). Disconnect the Bluetooth module or use software serial for programming.
 3. Verify the baud rate in the code matches the default baud rate of the Bluetooth module (commonly 9600).
+
+# Accelerometer (ADXL335) Connections
+
+The diagram below shows how to connect the ADXL335 accelerometer to the Arduino Uno.
+
+## Components:
+1. *ADXL335 Accelerometer Module*
+2. *Arduino Uno*
+3. Jumper wires for connections
+
+## Wiring:
+- *VCC: Connect the VCC pin of the ADXL335 to the **3.3V* pin of the Arduino Uno.
+- *GND: Connect the GND pin of the ADXL335 to the **GND* pin of the Arduino Uno.
+- *X: Connect the X-axis output pin of the ADXL335 to **Analog Pin A0* of the Arduino Uno.
+- *Y: Connect the Y-axis output pin of the ADXL335 to **Analog Pin A1* of the Arduino Uno.
+- *Z: Connect the Z-axis output pin of the ADXL335 to **Analog Pin A2* of the Arduino Uno.
+
+## Diagram:
+![Screenshot 2025-01-03 192112](https://github.com/user-attachments/assets/43904953-5842-4635-ae42-154a990d316e)
+
+
+Fig. 2: ADXL335 Accelerometer Connections with Arduino Uno
+
+---
+
+## Notes:
+1. Ensure that the ADXL335 is powered using the *3.3V* pin on the Arduino Uno to avoid damaging the module.
+2. Use stable connections for accurate sensor readings.
+3. You can read the X, Y, and Z-axis values using the Arduino's analogRead() function in your code.
+
+---
+
+
