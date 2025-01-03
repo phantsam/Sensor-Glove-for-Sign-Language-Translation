@@ -24,10 +24,7 @@ This setup allows the Arduino to read analog voltage variations caused by bendin
 - Verify that the Arduino's Analog pins (A0-A3) are correctly assigned in the code.
 
   
-## Components:
-1. *Bluetooth Module* (e.g., HC-05 or HC-06)
-2. *Arduino Uno*
-3. Jumper wires for connections
+## Bluetooth Connections:
 
 ## Wiring:
 - *VCC: Connect the VCC pin of the Bluetooth module to the **5V (Power)* pin of the Arduino Uno.
