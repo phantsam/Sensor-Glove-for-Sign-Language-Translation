@@ -81,4 +81,8 @@ This circuit diagram was made on fritzing and shows how the components are conne
 
 ![Screenshot 2025-01-03 190013](https://github.com/user-attachments/assets/5b3e26e1-0a2e-4e7f-9b24-07f89b180540)
 
+## Block Diagram
+
+![Screenshot 2025-01-03 192133](https://github.com/user-attachments/assets/4b0148cb-2293-412b-87dd-a030bb200c90)
+
 
