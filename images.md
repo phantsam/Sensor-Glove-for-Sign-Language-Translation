@@ -22,3 +22,28 @@ This setup allows the Arduino to read analog voltage variations caused by bendin
 ### Note:
 - Ensure proper connections to avoid short circuits.
 - Verify that the Arduino's Analog pins (A0-A3) are correctly assigned in the code.
+
+  
+## Components:
+1. *Bluetooth Module* (e.g., HC-05 or HC-06)
+2. *Arduino Uno*
+3. Jumper wires for connections
+
+## Wiring:
+- *VCC: Connect the VCC pin of the Bluetooth module to the **5V (Power)* pin of the Arduino Uno.
+- *GND: Connect the GND pin of the Bluetooth module to the **GND* pin of the Arduino Uno.
+- *TXD: Connect the TXD (Transmit Data) pin of the Bluetooth module to the **RX (Digital Pin 0)* of the Arduino Uno.
+- *RXD: Connect the RXD (Receive Data) pin of the Bluetooth module to the **TX (Digital Pin 1)* of the Arduino Uno.
+
+## Diagram:
+![Screenshot 2025-01-03 192122](https://github.com/user-attachments/assets/257451ab-ddb1-4a47-b4a0-a2dd4dfb2c71)
+
+
+*Fig. 4*: Bluetooth Module Connections with Arduino Uno
+
+---
+
+## Notes:
+1. Ensure that the RX and TX pins are connected correctly to avoid communication issues.
+2. Avoid uploading new code to the Arduino Uno while the Bluetooth module is connected to RX and TX (Digital Pins 0 and 1). Disconnect the Bluetooth module or use software serial for programming.
+3. Verify the baud rate in the code matches the default baud rate of the Bluetooth module (commonly 9600).
