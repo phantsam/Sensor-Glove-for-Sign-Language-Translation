@@ -40,3 +40,4 @@ The **Sensor Glove for Sign Language Translation** is a wearable device designed
 - Support for multiple languages and sign language variants.
 - Enhanced gesture accuracy using advanced sensors.
 - Incorporation of facial expression and body movement recognition.
+  
